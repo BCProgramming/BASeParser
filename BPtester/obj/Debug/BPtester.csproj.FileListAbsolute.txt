@@ -1,0 +1,7 @@
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Debug\BPtester.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Debug\BPtester.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Debug\BASeParser.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Debug\BASeParser.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\obj\Debug\BPtester.csprojResolveAssemblyReference.cache
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\obj\Debug\BPtester.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\obj\Debug\BPtester.pdb

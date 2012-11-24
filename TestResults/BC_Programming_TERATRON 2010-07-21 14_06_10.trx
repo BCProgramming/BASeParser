@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8726deaf-2704-46ab-a6f1-bbc8ad9fefcb" name="BC_Programming@TERATRON 2010-07-21 14:06:10" runUser="TERATRON\BC_Programming" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ddc50d58-c150-4597-9e4a-8070eba2b3a6">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\TestResults\BC_Programming_TERATRON 2010-07-21 14_06_10">
+      <DeploymentItem filename="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll" />
+      <DeploymentItem filename="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TERATRON" outcome="Warning" timestamp="2010-07-21T14:06:10.3787126-07:00">
+        <Text>Warning: conflict during test run deployment: deployment item 'C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll' directly or indirectly referenced by C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Debug\BPtester.dll cannot be deployed to 'BASeParser.dll' because otherwise the file 'C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll' would overwrite deployment item 'C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll' directly or indirectly referenced by C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-07-21T14:06:10.1526996-07:00" queuing="2010-07-21T14:06:11.5527797-07:00" start="2010-07-21T14:06:11.6907876-07:00" finish="2010-07-21T14:06:12.4368303-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestOperators" storage="c:\users\bc_programming\documents\visual studio 2008\projects\baseparser\bptester\bin\release\bptester.dll" id="52a188db-9a6e-8d99-9ef7-f3540ffdb001">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e6b06724-ca0b-46f2-90bb-9b148437360e" />
+      <TestMethod codeBase="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BPtester.BPTClass, BPtester" name="TestOperators" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="52a188db-9a6e-8d99-9ef7-f3540ffdb001" executionId="e6b06724-ca0b-46f2-90bb-9b148437360e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e6b06724-ca0b-46f2-90bb-9b148437360e" testId="52a188db-9a6e-8d99-9ef7-f3540ffdb001" testName="TestOperators" computerName="TERATRON" duration="00:00:00.0908594" startTime="2010-07-21T14:06:11.8277955-07:00" endTime="2010-07-21T14:06:12.3768269-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. 1/2 tests failed.</Message>
+          <StackTrace>   at BPtester.BPTClass.TestOperators() in C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\BPTClass.cs:line 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

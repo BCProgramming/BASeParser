@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BASeParser">
+</Property><Property Name="Solution File" Value="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser.sln">
+</Property><Property Name="Date" Value="Wednesday, September 26, 2012">
+</Property><Property Name="Time" Value="8:11 AM">
+</Property></Properties><Event ErrorLevel="0" Project="BASeParser" Source="BASeParser\BASeParser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BASeParser" Source="BASeParser\BASeParser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="testparser" Source="testparser\testparser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="testparser" Source="testparser\testparser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BPtester" Source="BPtester\BPtester.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BPtester" Source="BPtester\BPtester.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NoiseMaker" Source="NoiseMaker\NoiseMaker.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NoiseMaker" Source="NoiseMaker\NoiseMaker.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BASeParser.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BASeParser.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BASeParser" Source="BASeParser\BASeParser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="testparser" Source="testparser\testparser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="BASeParser.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BASeParser.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="BPtester" Source="BPtester\BPtester.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NoiseMaker" Source="NoiseMaker\NoiseMaker.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

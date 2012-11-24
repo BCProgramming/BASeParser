@@ -1,0 +1,791 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:ICorePlugin.cs" caret="478" fromTop="15" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:IOperable.cs" caret="321" fromTop="12" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:IEvalPlugin.cs" caret="255" fromTop="0" />
+      <File id="6324100D-DAC6-4EFF-A363-2F81235E1372/f:AuthoringTests.txt" caret="0" fromTop="0" />
+      <File id="D89BB358-CC8D-404D-BD2A-F1E5CE33774B/f:Program.cs" caret="318" fromTop="14" />
+      <File id="6324100D-DAC6-4EFF-A363-2F81235E1372/f:BPTClass.cs" caret="2527" fromTop="30" />
+      <File id="D89BB358-CC8D-404D-BD2A-F1E5CE33774B/f:frmtest.cs" caret="1981" fromTop="12" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CStackCache.cs" caret="1630" fromTop="18" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CFormItem.cs" caret="762" fromTop="17" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:SObject.cs" caret="286" fromTop="16" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:iExpandoObject.cs" caret="1587" fromTop="21" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:Variable.cs" caret="344" fromTop="18" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CFunction.cs" caret="3415" fromTop="18" />
+      <File id="C8B4B50E-08D5-42F2-A704-B0587960A5C8/f:Form1.cs" caret="543" fromTop="23" />
+      <File id="d:Miscellaneous Files/f:EventStack.cs/l:C!?Users?BC_Programming?Documents?Visual Studio 2008?Projects?BASeParser?BASeParser?EventStack.cs" caret="631" fromTop="26" />
+      <File id="d:Miscellaneous Files/f:CParser.cs/l:C!?Users?BC_Programming?Documents?Visual Studio 2008?Projects?BASeParser?BASeParser?CParser.cs" caret="59365" fromTop="34" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:EventStack.cs" caret="540" fromTop="9" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="50039" fromTop="15" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:cFunctionHandler.cs" caret="571" fromTop="0" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="10240" fromTop="29" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="24083" fromTop="14" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="26402" fromTop="25" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="26238" fromTop="20" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="20649" fromTop="12" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="18617" fromTop="20" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="26999" fromTop="20" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="27052" fromTop="24" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="59365" fromTop="15" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CParser.cs" caret="26765" fromTop="15" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="2528" fromTop="14" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="5020" fromTop="27" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="4149" fromTop="22" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="4324" fromTop="28" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="6655" fromTop="17" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="4944" fromTop="29" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="3921" fromTop="12" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="4925" fromTop="33" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="8594" fromTop="25" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="9445" fromTop="33" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="9439" fromTop="28" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="7792" fromTop="18" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="8364" fromTop="25" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="8549" fromTop="25" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="8883" fromTop="23" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="9094" fromTop="25" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="9355" fromTop="29" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="7390" fromTop="27" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="525" fromTop="17" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="11957" fromTop="26" />
+      <File id="36383D10-18C6-4C2F-9267-0E7B8AF148B1/f:CoreOpFunc.cs" caret="10090" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="invokethis" priority="0" />
+      <Item value="else" priority="18" />
+      <Item value="IEnumerable" priority="8" />
+      <Item value="MemberInfo" priority="1" />
+      <Item value="from" priority="4" />
+      <Item value="OnObject" priority="2" />
+      <Item value="where" priority="2" />
+      <Item value="p" priority="1" />
+      <Item value="routinename" priority="0" />
+      <Item value="StringComparison" priority="15" />
+      <Item value="parameters" priority="43" />
+      <Item value="if" priority="87" />
+      <Item value="objmembers" priority="1" />
+      <Item value="Count" priority="2" />
+      <Item value="return" priority="93" />
+      <Item value="null" priority="52" />
+      <Item value="object" priority="35" />
+      <Item value="foreach" priority="14" />
+      <Item value="in" priority="13" />
+      <Item value="meminfo" priority="1" />
+      <Item value="propinfo" priority="0" />
+      <Item value="ToArray" priority="0" />
+      <Item value="returnproperty" priority="1" />
+      <Item value="public" priority="87" />
+      <Item value="Object" priority="67" />
+      <Item value="this" priority="30" />
+      <Item value="int" priority="28" />
+      <Item value="case" priority="21" />
+      <Item value="throw" priority="6" />
+      <Item value="new" priority="87" />
+      <Item value="ArgumentException" priority="2" />
+      <Item value="Activator" priority="5" />
+      <Item value="Reflection" priority="2" />
+      <Item value="using" priority="11" />
+      <Item value="System" priority="30" />
+      <Item value="Runtime" priority="4" />
+      <Item value="InteropServices" priority="1" />
+      <Item value="string" priority="6" />
+      <Item value="servername" priority="1" />
+      <Item value="oType" priority="0" />
+      <Item value="Type" priority="6" />
+      <Item value="sProgID" priority="1" />
+      <Item value="static" priority="9" />
+      <Item value="CreateCOMObject" priority="0" />
+      <Item value="CParser" priority="23" />
+      <Item value="returnobject" priority="1" />
+      <Item value="ActivationContext" priority="0" />
+      <Item value="AssemblyNameProxy" priority="1" />
+      <Item value="Binder" priority="3" />
+      <Item value="Remoting" priority="0" />
+      <Item value="ObjectHandle" priority="0" />
+      <Item value="String" priority="61" />
+      <Item value="lAsmName" priority="0" />
+      <Item value="true" priority="7" />
+      <Item value="BindingFlags" priority="0" />
+      <Item value="CultureInfo" priority="1" />
+      <Item value="AppDomain" priority="1" />
+      <Item value="Environment" priority="2" />
+      <Item value="Evidence" priority="0" />
+      <Item value="objhandle" priority="0" />
+      <Item value="break" priority="9" />
+      <Item value="retval" priority="4" />
+      <Item value="pExpression" priority="4" />
+      <Item value="IResultFormatter" priority="2" />
+      <Item value="List" priority="32" />
+      <Item value="mresultformatters" priority="0" />
+      <Item value="List&lt;IResultFormatter&gt;" priority="0" />
+      <Item value="Resultformatters" priority="2" />
+      <Item value="mExpression" priority="4" />
+      <Item value="resultvalue" priority="0" />
+      <Item value="void" priority="15" />
+      <Item value="resformat" priority="2" />
+      <Item value="var" priority="8" />
+      <Item value="select" priority="3" />
+      <Item value="returnit" priority="0" />
+      <Item value="runresult" priority="1" />
+      <Item value="KeyValuePair" priority="7" />
+      <Item value="Stack" priority="5" />
+      <Item value="LinkedList" priority="5" />
+      <Item value="CFormItem" priority="22" />
+      <Item value="CStackCache" priority="7" />
+      <Item value="cachedstacks" priority="4" />
+      <Item value="List&lt;KeyValuePair&lt;string,LinkedList&lt;CFormItem&gt;&gt;&gt;" priority="0" />
+      <Item value="w" priority="24" />
+      <Item value="expression" priority="8" />
+      <Item value="IEvalPlugin" priority="2" />
+      <Item value="EventDelegates" priority="2" />
+      <Item value="Delegate" priority="2" />
+      <Item value="CFunction" priority="16" />
+      <Item value="base" priority="14" />
+      <Item value="class" priority="4" />
+      <Item value="private" priority="22" />
+      <Item value="mParser" priority="16" />
+      <Item value="ParentParser" priority="6" />
+      <Item value="KeyValuePair&lt;string,object&gt;" priority="3" />
+      <Item value="Expression" priority="3" />
+      <Item value="cFunctionHandler" priority="6" />
+      <Item value="opconstants" priority="0" />
+      <Item value="operatortypeconstants" priority="24" />
+      <Item value="delegate" priority="6" />
+      <Item value="enum" priority="2" />
+      <Item value="FunctionChangeEvent" priority="0" />
+      <Item value="eventfunction" priority="3" />
+      <Item value="PluginEvent" priority="5" />
+      <Item value="CoreOpFunc" priority="2" />
+      <Item value="mcoreplugin" priority="0" />
+      <Item value="corefuncplugin" priority="3" />
+      <Item value="EvalPlugins" priority="3" />
+      <Item value="PluginEventTypeConstants" priority="8" />
+      <Item value="Flags" priority="0" />
+      <Item value="Functionchangeeventconstants" priority="1" />
+      <Item value="value" priority="9" />
+      <Item value="mName" priority="0" />
+      <Item value="withparser" priority="4" />
+      <Item value="loopplugin" priority="2" />
+      <Item value="is" priority="14" />
+      <Item value="BASeParser" priority="6" />
+      <Item value="StringBuilder" priority="10" />
+      <Item value="List&lt;CFunction&gt;" priority="2" />
+      <Item value="mFunctions" priority="1" />
+      <Item value="mfunctions" priority="6" />
+      <Item value="forparser" priority="2" />
+      <Item value="functions" priority="1" />
+      <Item value="Collections" priority="4" />
+      <Item value="Generic" priority="1" />
+      <Item value="for" priority="9" />
+      <Item value="i" priority="61" />
+      <Item value="Length" priority="8" />
+      <Item value="KeyValuePair&lt;CParser,List&lt;CFunction&gt;&gt;" priority="1" />
+      <Item value="sbuild" priority="1" />
+      <Item value="funcloop" priority="0" />
+      <Item value="sealed" priority="0" />
+      <Item value="switch" priority="2" />
+      <Item value="FuncName" priority="4" />
+      <Item value="default" priority="1" />
+      <Item value="loopfunction" priority="1" />
+      <Item value="funcnameadd" priority="1" />
+      <Item value="funcexpressionadd" priority="1" />
+      <Item value="EvaluationError" priority="0" />
+      <Item value="Functionname" priority="1" />
+      <Item value="Name" priority="5" />
+      <Item value="getHandledFunctions" priority="0" />
+      <Item value="argstart" priority="0" />
+      <Item value="typeof" priority="2" />
+      <Item value="onvalue" priority="3" />
+      <Item value="test" priority="0" />
+      <Item value="GetValue" priority="1" />
+      <Item value="Cast" priority="0" />
+      <Item value="Select" priority="0" />
+      <Item value="XmlWriterTraceListener" priority="0" />
+      <Item value="indices" priority="4" />
+      <Item value="objuse" priority="0" />
+      <Item value="IList" priority="1" />
+      <Item value="protected" priority="2" />
+      <Item value="bool" priority="22" />
+      <Item value="out" priority="1" />
+      <Item value="IO" priority="3" />
+      <Item value="Packaging" priority="1" />
+      <Item value="ZipPackage" priority="1" />
+      <Item value="zipsy" priority="0" />
+      <Item value="mSplitOperators" priority="2" />
+      <Item value="SingleOrDefault" priority="1" />
+      <Item value="WeakReference" priority="0" />
+      <Item value="optest" priority="0" />
+      <Item value="ICorePlugin" priority="1" />
+      <Item value="buildprefixops" priority="2" />
+      <Item value="requesttype" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="buildreturn" priority="2" />
+      <Item value="HandledPrefixOps" priority="0" />
+      <Item value="buildpostfixops" priority="1" />
+      <Item value="mPrefixOperators" priority="4" />
+      <Item value="mPostfixOperators" priority="4" />
+      <Item value="while" priority="7" />
+      <Item value="buildops" priority="0" />
+      <Item value="mSplitPrefixOperators" priority="0" />
+      <Item value="mSplitPostfixOperators" priority="1" />
+      <Item value="retbinoperator" priority="0" />
+      <Item value="returnvalue" priority="15" />
+      <Item value="retprefixoperator" priority="0" />
+      <Item value="retpostfixoperator" priority="0" />
+      <Item value="optypeout" priority="0" />
+      <Item value="internal" priority="1" />
+      <Item value="Formatresult" priority="0" />
+      <Item value="CurrentItem" priority="10" />
+      <Item value="previousitem" priority="0" />
+      <Item value="event" priority="13" />
+      <Item value="EvaluationStackPushFunc" priority="0" />
+      <Item value="override" priority="1" />
+      <Item value="EventStack" priority="4" />
+      <Item value="T" priority="7" />
+      <Item value="ItemPrePushFunc" priority="0" />
+      <Item value="ItemPrePush" priority="1" />
+      <Item value="itempush" priority="4" />
+      <Item value="ItemPrePushPopFunc" priority="1" />
+      <Item value="ItemPrePop" priority="3" />
+      <Item value="evalStack" priority="1" />
+      <Item value="Debug" priority="5" />
+      <Item value="execlist" priority="1" />
+      <Item value="itemhandle" priority="4" />
+      <Item value="EvalStack" priority="4" />
+      <Item value="Stackpushevent" priority="1" />
+      <Item value="false" priority="3" />
+      <Item value="mpreviousitem" priority="3" />
+      <Item value="EventStack&lt;T&gt;.ItemPrePushPopFunc" priority="0" />
+      <Item value="IsAlpha" priority="1" />
+      <Item value="alphastring" priority="0" />
+      <Item value="Diagnostics" priority="2" />
+      <Item value="txtinput" priority="0" />
+      <Item value="Stack&lt;CFormItem&gt;" priority="0" />
+      <Item value="operatortypefound" priority="1" />
+      <Item value="IGrouping" priority="0" />
+      <Item value="ParserSyntaxError" priority="3" />
+      <Item value="position" priority="10" />
+      <Item value="parsedval" priority="2" />
+      <Item value="mcachepostfix" priority="1" />
+      <Item value="mallowed" priority="4" />
+      <Item value="mcachebinfix" priority="2" />
+      <Item value="unaryprefixstack" priority="3" />
+      <Item value="HandleOperation" priority="0" />
+      <Item value="itempop" priority="0" />
+      <Item value="currvalue" priority="1" />
+      <Item value="curritem" priority="0" />
+      <Item value="Operator" priority="6" />
+      <Item value="Double" priority="0" />
+      <Item value="double" priority="4" />
+      <Item value="Operand" priority="4" />
+      <Item value="Convert" priority="1" />
+      <Item value="N" priority="2" />
+      <Item value="Factorial" priority="0" />
+      <Item value="mBinOperators" priority="0" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="ICloneable" priority="0" />
+      <Item value="Net" priority="0" />
+      <Item value="Serialization" priority="1" />
+      <Item value="ISerializable" priority="1" />
+      <Item value="context" priority="0" />
+      <Item value="info" priority="2" />
+      <Item value="IDisposable" priority="0" />
+      <Item value="MulticastDelegate" priority="0" />
+      <Item value="args" priority="0" />
+      <Item value="OpAOperators" priority="2" />
+      <Item value="Math" priority="2" />
+      <Item value="yield return" priority="3" />
+      <Item value="newitem" priority="1" />
+      <Item value="KeyValuePair&lt;string,LinkedList&lt;CFormItem&gt;&gt;" priority="0" />
+      <Item value="formulastack" priority="3" />
+      <Item value="IndexOutOfRangeException" priority="1" />
+      <Item value="CacheStack" priority="0" />
+      <Item value="Indexvalue" priority="1" />
+      <Item value="returnthis" priority="1" />
+      <Item value="Configuration" priority="0" />
+      <Item value="Xml" priority="0" />
+      <Item value="ParserSettings" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="NestedClass" priority="0" />
+      <Item value="IFormattable" priority="0" />
+      <Item value="formatProvider" priority="0" />
+      <Item value="ItemType" priority="1" />
+      <Item value="sb" priority="7" />
+      <Item value="Operation" priority="0" />
+      <Item value="Position" priority="0" />
+      <Item value="Value" priority="2" />
+      <Item value="valloop" priority="0" />
+      <Item value="yield break" priority="0" />
+      <Item value="noparsedargs" priority="1" />
+      <Item value="eventtype" priority="1" />
+      <Item value="parserobject" priority="6" />
+      <Item value="mPluginEvents" priority="1" />
+      <Item value="itemloop" priority="0" />
+      <Item value="functionname" priority="0" />
+      <Item value="funcarguments" priority="2" />
+      <Item value="paramobjects" priority="1" />
+      <Item value="paramresults" priority="0" />
+      <Item value="const" priority="1" />
+      <Item value="ArrayOperators" priority="0" />
+      <Item value="OpA" priority="14" />
+      <Item value="ret" priority="10" />
+      <Item value="ValueType" priority="1" />
+      <Item value="loopvalue" priority="2" />
+      <Item value="HandledOperatorString" priority="0" />
+      <Item value="OpB" priority="7" />
+      <Item value="Enumcast" priority="3" />
+      <Item value="HandleOperator" priority="2" />
+      <Item value="resultbuild" priority="1" />
+      <Item value="Contains" priority="0" />
+      <Item value="inExpression" priority="10" />
+      <Item value="StartbracketPos" priority="1" />
+      <Item value="ExpressionParse" priority="2" />
+      <Item value="startposition" priority="3" />
+      <Item value="cFormItemNode" priority="0" />
+      <Item value="Execute" priority="1" />
+      <Item value="testparser" priority="4" />
+      <Item value="tempret" priority="1" />
+      <Item value="TestContext" priority="0" />
+      <Item value="Assert" priority="2" />
+      <Item value="ExpressionsUse" priority="2" />
+      <Item value="tempobject" priority="1" />
+      <Item value="Expectedresults" priority="1" />
+      <Item value="failtest" priority="0" />
+      <Item value="failcount" priority="0" />
+      <Item value="ToList" priority="3" />
+      <Item value="parent" priority="4" />
+      <Item value="pparent" priority="3" />
+      <Item value="pVariables" priority="0" />
+      <Item value="List&lt;KeyValuePair&lt;string,object&gt;&gt;" priority="0" />
+      <Item value="newvariables" priority="1" />
+      <Item value="newfunction" priority="0" />
+      <Item value="loopevent" priority="0" />
+      <Item value="PluginEventFunc" priority="0" />
+      <Item value="Variables" priority="0" />
+      <Item value="char" priority="2" />
+      <Item value="startpos" priority="3" />
+      <Item value="quotecharacters" priority="0" />
+      <Item value="inquote" priority="3" />
+      <Item value="foundedpos" priority="1" />
+      <Item value="matchquote" priority="1" />
+      <Item value="All" priority="0" />
+      <Item value="backtickitem" priority="3" />
+      <Item value="Process" priority="3" />
+      <Item value="ProcessStartInfo" priority="0" />
+      <Item value="scommand" priority="1" />
+      <Item value="psinfo" priority="1" />
+      <Item value="cmdprocess" priority="1" />
+      <Item value="StreamReader" priority="0" />
+      <Item value="buildresult" priority="1" />
+      <Item value="processoutput" priority="0" />
+      <Item value="getcommandoutput" priority="0" />
+      <Item value="ParseStateConstants" priority="5" />
+      <Item value="ParseState" priority="3" />
+      <Item value="LastResult" priority="2" />
+      <Item value="loopitem" priority="0" />
+      <Item value="RipFormulaEnum" priority="0" />
+      <Item value="expandoProperty" priority="1" />
+      <Item value="EventArgs" priority="2" />
+      <Item value="PropertyEventArgs" priority="7" />
+      <Item value="t" priority="0" />
+      <Item value="PropertyEvent" priority="1" />
+      <Item value="PropertyReturnEvent" priority="0" />
+      <Item value="mObject" priority="0" />
+      <Item value="newValue" priority="0" />
+      <Item value="pnewValue" priority="0" />
+      <Item value="oldValue" priority="0" />
+      <Item value="poldValue" priority="0" />
+      <Item value="mValue" priority="5" />
+      <Item value="sendargs" priority="3" />
+      <Item value="PropertyAfterAssign" priority="0" />
+      <Item value="PropertyGet" priority="0" />
+      <Item value="eventobj" priority="0" />
+      <Item value="EventName" priority="0" />
+      <Item value="mFunction" priority="2" />
+      <Item value="txtexpression" priority="0" />
+      <Item value="ForeColorChanged" priority="0" />
+      <Item value="txtlength" priority="0" />
+      <Item value="Console" priority="0" />
+      <Item value="ObservableCollection&lt;KeyValuePair&lt;string,object&gt;&gt;" priority="0" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="Variable" priority="24" />
+      <Item value="pName" priority="0" />
+      <Item value="pValue" priority="0" />
+      <Item value="vartest" priority="0" />
+      <Item value="mVarList" priority="1" />
+      <Item value="IntPtr" priority="1" />
+      <Item value="mList" priority="13" />
+      <Item value="Index" priority="1" />
+      <Item value="index" priority="0" />
+      <Item value="foundindex" priority="0" />
+      <Item value="VariableList" priority="4" />
+      <Item value="List&lt;Variable&gt;" priority="1" />
+      <Item value="Otherlist" priority="0" />
+      <Item value="addthis" priority="1" />
+      <Item value="Func" priority="1" />
+      <Item value="Single" priority="0" />
+      <Item value="SingleArgFunction" priority="1" />
+      <Item value="BeforeVariableAdd" priority="3" />
+      <Item value="VariableListEventReturnConstants" priority="0" />
+      <Item value="EventHandler" priority="0" />
+      <Item value="addobj" priority="3" />
+      <Item value="invokelist" priority="1" />
+      <Item value="currentreturn" priority="2" />
+      <Item value="loopinvoke" priority="0" />
+      <Item value="addedvar" priority="0" />
+      <Item value="VariableListBeforeEventReturnConstants" priority="0" />
+      <Item value="currreturn" priority="2" />
+      <Item value="arguse" priority="1" />
+      <Item value="variablearg" priority="0" />
+      <Item value="matched" priority="0" />
+      <Item value="mSplitFunctions" priority="0" />
+      <Item value="sfunc" priority="4" />
+      <Item value="ssfunc" priority="1" />
+      <Item value="foundfunc" priority="2" />
+      <Item value="FunctionAtPos" priority="0" />
+      <Item value="foundstart" priority="0" />
+      <Item value="foundop" priority="0" />
+      <Item value="MatchBracket" priority="1" />
+      <Item value="matchedbracket" priority="0" />
+      <Item value="matchedpos" priority="0" />
+      <Item value="Expressions" priority="2" />
+      <Item value="returnvalues" priority="5" />
+      <Item value="Castarray" priority="5" />
+      <Item value="parms" priority="2" />
+      <Item value="firstarray" priority="2" />
+      <Item value="firstarrayindex" priority="1" />
+      <Item value="useparameters" priority="1" />
+      <Item value="loopparameter" priority="0" />
+      <Item value="Buildreturn" priority="1" />
+      <Item value="a" priority="1" />
+      <Item value="HandleFunction" priority="0" />
+      <Item value="ix" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType" priority="13" />
+      <Item value="ToString" priority="5" />
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetMembers" priority="0" />
+      <Item value="GetProperties" priority="0" />
+      <Item value="IsArray" priority="4" />
+      <Item value="IsEnum" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MemberInfo">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals" priority="15" />
+      <Item value="Length" priority="9" />
+      <Item value="Split" priority="1" />
+      <Item value="ToLower" priority="2" />
+      <Item value="Substring" priority="5" />
+      <Item value="Trim" priority="11" />
+      <Item value="IndexOf" priority="4" />
+      <Item value="Replace" priority="1" />
+      <Item value="All" priority="0" />
+      <Item value="ToUpper" priority="2" />
+      <Item value="Reverse" priority="0" />
+      <Item value="ToArray" priority="0" />
+      <Item value="Contains" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringComparison">
+      <Item value="OrdinalIgnoreCase" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count" priority="1" />
+      <Item value="ToArray" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="GetGetMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="5" />
+      <Item value="CopyTo" priority="0" />
+      <Item value="GetRange" priority="0" />
+      <Item value="ToArray" priority="1" />
+      <Item value="Add" priority="10" />
+      <Item value="Exists" priority="3" />
+      <Item value="Single" priority="1" />
+      <Item value="RemoveAll" priority="1" />
+      <Item value="Any" priority="1" />
+      <Item value="First" priority="1" />
+      <Item value="Find" priority="3" />
+      <Item value="GetEnumerator" priority="1" />
+      <Item value="FindIndex" priority="0" />
+      <Item value="Remove" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance" priority="3" />
+      <Item value="CreateComInstanceFrom" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetTypeFromProgID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CParser">
+      <Item value="CreateCOMObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.BindingFlags">
+      <Item value="CreateInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.CultureInfo">
+      <Item value="CurrentCulture" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Remoting.ObjectHandle">
+      <Item value="Unwrap" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.CParser">
+      <Item value="ResultToString_private" priority="0" />
+      <Item value="SpawnParser" priority="1" />
+      <Item value="Variables" priority="15" />
+      <Item value="Execute" priority="4" />
+      <Item value="Equals" priority="2" />
+      <Item value="getfunctions" priority="0" />
+      <Item value="Functions" priority="4" />
+      <Item value="Expression" priority="0" />
+      <Item value="ResultToString" priority="1" />
+      <Item value="CorePlugins" priority="1" />
+      <Item value="EvalPlugins" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.IResultFormatter">
+      <Item value="Formatresult" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="7" />
+      <Item value="Value" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.operatortypeconstants">
+      <Item value="operator_binary" priority="8" />
+      <Item value="operator_unary_postfix" priority="2" />
+      <Item value="operator_unary_prefix" priority="5" />
+      <Item value="operator_all" priority="0" />
+      <Item value="operator_none" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CFunction">
+      <Item value="Functionchangeeventconstants" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.PluginEventTypeConstants">
+      <Item value="PET_FUNCTIONSCHANGED" priority="2" />
+      <Item value="PET_OPERATORSCHANGED" priority="0" />
+      <Item value="PET_REQUESTPARSER" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CFunction+Functionchangeeventconstants">
+      <Item value="name_changed" priority="1" />
+      <Item value="expression_changed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.IEvalPlugin">
+      <Item value="GetType" priority="0" />
+      <Item value="CanHandleFunction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="13" />
+      <Item value="ToString" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.CFunction">
+      <Item value="Name" priority="2" />
+      <Item value="Invoke" priority="2" />
+      <Item value="Expression" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="0" />
+      <Item value="ChangeType" priority="1" />
+      <Item value="ToDouble" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.LinkedList`1">
+      <Item value="ToArray" priority="1" />
+      <Item value="Find" priority="1" />
+      <Item value="Count" priority="2" />
+      <Item value="AsEnumerable" priority="0" />
+      <Item value="AddBefore" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.LinkedListNode`1">
+      <Item value="Previous" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.CFormItem">
+      <Item value="ItemType" priority="4" />
+      <Item value="Operation" priority="4" />
+      <Item value="Priority" priority="1" />
+      <Item value="Position" priority="1" />
+      <Item value="ToString" priority="0" />
+      <Item value="handler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CFormItem">
+      <Item value="FormItemTypeConstants" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Stack`1">
+      <Item value="Push" priority="3" />
+      <Item value="Peek" priority="0" />
+      <Item value="Pop" priority="1" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.EventStack`1+ItemPrePushFunc">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.EventStack`1+ItemPrePushPopFunc">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CFormItem+FormItemTypeConstants">
+      <Item value="IT_UNARY" priority="3" />
+      <Item value="IT_ARRAYACCESS" priority="0" />
+      <Item value="IT_FUNCTION" priority="0" />
+      <Item value="IT_OBJACCESS" priority="1" />
+      <Item value="IT_SUBEXPRESSION" priority="0" />
+      <Item value="IT_VALUE" priority="0" />
+      <Item value="IT_VARIABLE" priority="0" />
+      <Item value="IT_BACKTICK" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Print" priority="3" />
+      <Item value="Assert" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.EventStack`1">
+      <Item value="ItemPrePush" priority="2" />
+      <Item value="Pop" priority="1" />
+      <Item value="Push" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="CompareTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.CFormItem+FormItemTypeConstants">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.SerializationInfo">
+      <Item value="AddValue" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.MulticastDelegate">
+      <Item value="DynamicInvoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Floor" priority="0" />
+      <Item value="Log" priority="0" />
+      <Item value="Round" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.ParserSettings">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.ParserSettings">
+      <Item value="CacheMinStackSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CStackCache+NestedClass">
+      <Item value="StackCache" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CStackCache">
+      <Item value="instance" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.CStackCache">
+      <Item value="CacheStack" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IFormatProvider">
+      <Item value="GetFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.PluginEvent">
+      <Item value="Invoke" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="0" />
+      <Item value="AsQueryable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="Fail" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="StandardOutput" priority="0" />
+      <Item value="HasExited" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadLine" priority="0" />
+      <Item value="ReadToEnd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="ExpandEnvironmentVariables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.CParser+ParseStateConstants">
+      <Item value="ParseState_Idle" priority="0" />
+      <Item value="ParseState_Parsing" priority="0" />
+      <Item value="ParseState_IdleParsed" priority="0" />
+      <Item value="ParseState_Executing" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.Expandos.expandoProperty">
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.Expandos.expandoProperty+PropertyEvent">
+      <Item value="Invoke" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.Expandos.expandoProperty+PropertyEventArgs">
+      <Item value="newValue" priority="3" />
+      <Item value="oldValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.Expandos.expandoProperty+PropertyReturnEvent">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Beep" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="ToList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.Variable">
+      <Item value="Value" priority="2" />
+      <Item value="Name" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`2">
+      <Item value="Invoke" priority="1" />
+      <Item value="GetInvocationList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.VariableList+VariableListBeforeEventReturnConstants">
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BASeParser.VariableList+VariableListBeforeEventReturnConstants">
+      <Item value="VL_ALLOW" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BASeParser.VariableList+SingleArgFunction">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IEnumerable">
+      <Item value="GetEnumerator" priority="0" />
+      <Item value="Cast" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="36383D10-18C6-4C2F-9267-0E7B8AF148B1" ModuleId="BASeParser" />
+  <Module PersistentId="D89BB358-CC8D-404D-BD2A-F1E5CE33774B" ModuleId="testparser" />
+</Modules>

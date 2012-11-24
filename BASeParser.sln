@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC053348-2316-4241-9C6B-7E1490D43521}"
+	ProjectSection(SolutionItems) = preProject
+		BASeParser.vsmdi = BASeParser.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BASeParser", "BASeParser\BASeParser.csproj", "{36383D10-18C6-4C2F-9267-0E7B8AF148B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testparser", "testparser\testparser.csproj", "{D89BB358-CC8D-404D-BD2A-F1E5CE33774B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPtester", "BPtester\BPtester.csproj", "{6324100D-DAC6-4EFF-A363-2F81235E1372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoiseMaker", "NoiseMaker\NoiseMaker.csproj", "{C8B4B50E-08D5-42F2-A704-B0587960A5C8}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BASeParser.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36383D10-18C6-4C2F-9267-0E7B8AF148B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36383D10-18C6-4C2F-9267-0E7B8AF148B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36383D10-18C6-4C2F-9267-0E7B8AF148B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36383D10-18C6-4C2F-9267-0E7B8AF148B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89BB358-CC8D-404D-BD2A-F1E5CE33774B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89BB358-CC8D-404D-BD2A-F1E5CE33774B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89BB358-CC8D-404D-BD2A-F1E5CE33774B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89BB358-CC8D-404D-BD2A-F1E5CE33774B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6324100D-DAC6-4EFF-A363-2F81235E1372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6324100D-DAC6-4EFF-A363-2F81235E1372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6324100D-DAC6-4EFF-A363-2F81235E1372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6324100D-DAC6-4EFF-A363-2F81235E1372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B4B50E-08D5-42F2-A704-B0587960A5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B4B50E-08D5-42F2-A704-B0587960A5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B4B50E-08D5-42F2-A704-B0587960A5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B4B50E-08D5-42F2-A704-B0587960A5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

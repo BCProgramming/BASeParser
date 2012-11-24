@@ -1,0 +1,14 @@
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BASeParser.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BASeParser.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\obj\Release\ResolveAssemblyReference.cache
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\obj\Release\BPtester.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\obj\Release\BPtester.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\bin\Release\BASeParser.dll
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\bin\Release\BASeParser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\obj\Release\ResolveAssemblyReference.cache
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\obj\Release\BPtester.dll
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BPtester\obj\Release\BPtester.pdb

@@ -1,0 +1,9 @@
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\obj\Debug\BASeParser.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\obj\Debug\BASeParser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BASeParser\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BASeParser\obj\Debug\BASeParser.dll
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BASeParser\obj\Debug\BASeParser.pdb

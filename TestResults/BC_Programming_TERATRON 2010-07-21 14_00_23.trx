@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="20b985d1-1e4f-479d-b56a-e77c107021ae" name="BC_Programming@TERATRON 2010-07-21 14:00:23" runUser="TERATRON\BC_Programming" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ddc50d58-c150-4597-9e4a-8070eba2b3a6">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\TestResults\BC_Programming_TERATRON 2010-07-21 14_00_23">
+      <DeploymentItem filename="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TERATRON" outcome="Error" timestamp="2010-07-21T14:01:39.2582054-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-07-21T14:00:23.6078784-07:00" queuing="2010-07-21T14:00:25.3529782-07:00" start="2010-07-21T14:00:25.5039869-07:00" finish="2010-07-21T14:01:39.2592054-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestOperators" storage="c:\users\bc_programming\documents\visual studio 2008\projects\baseparser\bptester\bin\release\bptester.dll" id="52a188db-9a6e-8d99-9ef7-f3540ffdb001">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="37a5b207-2045-4c5a-bc90-02f9a8567494" />
+      <TestMethod codeBase="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BPtester.BPTClass, BPtester" name="TestOperators" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="52a188db-9a6e-8d99-9ef7-f3540ffdb001" executionId="cc545050-6c73-4408-b254-bcd502aef268" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cc545050-6c73-4408-b254-bcd502aef268" testId="52a188db-9a6e-8d99-9ef7-f3540ffdb001" testName="TestOperators" computerName="TERATRON" duration="00:01:13.5852088" startTime="2010-07-21T14:00:25.6739966-07:00" endTime="2010-07-21T14:01:39.2592054-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

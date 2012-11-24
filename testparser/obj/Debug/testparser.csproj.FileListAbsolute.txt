@@ -1,0 +1,20 @@
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\bin\Debug\testparser.exe
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\bin\Debug\testparser.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\bin\Debug\BASeParser.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\bin\Debug\BASeParser.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.frmtest.resources
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.Properties.Resources.resources
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.csproj.GenerateResource.Cache
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.exe
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.exe
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\bin\Debug\testparser.exe
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\bin\Debug\testparser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\bin\Debug\BASeParser.dll
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\bin\Debug\BASeParser.pdb
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.frmtest.resources
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.Properties.Resources.resources
+C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.csproj.GenerateResource.Cache
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\testparser\obj\Debug\testparser.csprojResolveAssemblyReference.cache

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="56242da7-fece-45f6-89cc-fb01bec77e8c" name="BC_Programming@TERATRON 2010-07-21 14:08:17" runUser="TERATRON\BC_Programming" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ddc50d58-c150-4597-9e4a-8070eba2b3a6">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\TestResults\BC_Programming_TERATRON 2010-07-21 14_08_17">
+      <DeploymentItem filename="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll" />
+      <DeploymentItem filename="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TERATRON" outcome="Warning" timestamp="2010-07-21T14:08:17.3259735-07:00">
+        <Text>Warning: conflict during test run deployment: deployment item 'C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll' directly or indirectly referenced by C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Debug\BPtester.dll cannot be deployed to 'BASeParser.dll' because otherwise the file 'C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Debug\BASeParser.dll' would overwrite deployment item 'C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll' directly or indirectly referenced by C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll.</Text>
+      </RunInfo>
+      <RunInfo computerName="TERATRON" outcome="Error" timestamp="2010-07-21T14:09:25.4918724-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-07-21T14:08:17.0989606-07:00" queuing="2010-07-21T14:08:18.5440432-07:00" start="2010-07-21T14:08:18.6820511-07:00" finish="2010-07-21T14:09:25.4918724-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestOperators" storage="c:\users\bc_programming\documents\visual studio 2008\projects\baseparser\bptester\bin\release\bptester.dll" id="52a188db-9a6e-8d99-9ef7-f3540ffdb001">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="480b330f-89b6-454d-8d40-4d2a962a4ae5" />
+      <TestMethod codeBase="C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BPtester\bin\Release\BPtester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BPtester.BPTClass, BPtester" name="TestOperators" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="52a188db-9a6e-8d99-9ef7-f3540ffdb001" executionId="c86d800b-c99a-4f92-90c9-137f0bc52d7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c86d800b-c99a-4f92-90c9-137f0bc52d7d" testId="52a188db-9a6e-8d99-9ef7-f3540ffdb001" testName="TestOperators" computerName="TERATRON" duration="00:01:06.5888087" startTime="2010-07-21T14:08:18.9030637-07:00" endTime="2010-07-21T14:09:25.4918724-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

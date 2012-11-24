@@ -1,0 +1,10 @@
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\bin\Debug\NoiseMaker.exe
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\bin\Debug\NoiseMaker.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\bin\Debug\BASeParser.dll
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\bin\Debug\BASeParser.pdb
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\obj\Debug\NoiseMaker.csprojResolveAssemblyReference.cache
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\obj\Debug\NoiseMaker.Form1.resources
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\obj\Debug\NoiseMaker.Properties.Resources.resources
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\obj\Debug\NoiseMaker.csproj.GenerateResource.Cache
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\obj\Debug\NoiseMaker.exe
+C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\NoiseMaker\obj\Debug\NoiseMaker.pdb
