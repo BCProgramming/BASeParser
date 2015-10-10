@@ -18,7 +18,7 @@ namespace BASeParser
         private const String HandledFunctionString = " sin cos tan sqr array createobject store log exp round range seq";
         private const String ArrayAwareFunctions = " store "; //array aware functions are functions that can accept an array. otherwise, the array is flattened and the function called
                                                                 //with each value as a parameter.
-        private const String HandledOperatorString = " - + * / ^ $$ \\ DIV IN ";
+        private const String HandledOperatorString = " <= >= < > == - + * / ^ $$ \\ DIV IN ";
         private const String HandledPostfixOps = " ! ";
         private const String HandledPrefixOps = " - ";
         private const String ArrayOperators = " IN ";
@@ -190,7 +190,7 @@ namespace BASeParser
             //for now, we either find or create a Variable.
             Variable usevariable = withparser.Variables[LValue];
 
-            if (Operator == "=")
+            if (Operator == ":=")
             {
                 usevariable.Value = RValue.Execute();
             }
@@ -319,18 +319,38 @@ namespace BASeParser
                 switch (Operator.ToLower())
                 {
                     case "^":
-                        return Math.Pow((double) OpA, (double) OpB);
+                        return Math.Pow((double)OpA, (double)OpB);
 
                     case "/":
-                        return (double) OpA/(double) OpB;
+                        return (double)OpA / (double)OpB;
                     case "\\":
                     case "div":
-                        return Math.Floor((double) OpA/(double) OpB);
+                        return Math.Floor((double)OpA / (double)OpB);
                     case "in":
-                        return ((Object[]) OpB).Contains(OpA);
+                        return ((Object[])OpB).Contains(OpA);
                     case "*":
-                        return (double) OpA*(double) OpB;
+                        return (double)OpA * (double)OpB;
+                    case "==":
+                        return OpA.Equals(OpB);
+                    case ">=":
+                    case "<=":
+                    case "<":
+                    case ">":
+                        IComparable ica = (IComparable)OpA;
+                        IComparable icb = (IComparable)OpB;
+                        int result = ica.CompareTo(icb);
+                        switch (Operator.ToLower())
+                        {
+                            case ">=": return result != -1;
+                            case "<=": return result != 1;
+                            case ">": return result == 1;
+                            case "<": return result==-1;
+                           
+                                
 
+
+                        }
+                        return null;
                     case "+":
                         if ((OpA.GetType().Name == "String") || (OpB.GetType().Name == "String"))
                         {
@@ -346,13 +366,13 @@ namespace BASeParser
                         return null;
 
                     case "-":
-                        return (double) OpA - (double) OpB;
+                        return (double)OpA - (double)OpB;
                     case "$$":
                         //throw new NotImplementedException();
-                        var rx = new Regex((string) OpB);
-                        return rx.Match((String) OpA);
-                   
-                        
+                        var rx = new Regex((string)OpB);
+                        return rx.Match((String)OpA);
+
+
 
 
                     default:
@@ -579,12 +599,12 @@ namespace BASeParser
         }
         public bool IsAssignmentOperator(CParser Withparser,String Operator)
         {
-            if (Operator == "=") return true;
+            if (Operator == ":=") return true;
 
-            if (Operator.EndsWith("="))
+            if (Operator.EndsWith(":="))
             {
                 operatortypeconstants gettype;
-                String parseout = Operator.Substring(0, Operator.Length-1);
+                String parseout = Operator.Substring(0, Operator.Length-2);
                 if (CanHandleOperator(parseout, out gettype) > 0 && gettype==operatortypeconstants.operator_binary)
                 {
                     return true;

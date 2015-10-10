@@ -1,6 +1,5 @@
 C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll
 C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.pdb
-C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\obj\Release\ResolveAssemblyReference.cache
 C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\obj\Release\BASeParser.dll
 C:\Users\BC_Programming\Documents\Visual Studio 2008\Projects\BASeParser\BASeParser\obj\Release\BASeParser.pdb
 C:\Users\BC_Programming\My Documents\visual studio 2008\Projects\BASeParser\BASeParser\bin\Release\BASeParser.dll

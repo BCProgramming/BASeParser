@@ -55,7 +55,7 @@ namespace BASeParser
 
 
         #region IFormattable Members
-        new string ToString()
+        public override string ToString()
         {
             var sb = new StringBuilder();
             sb.Append("ItemType=" + ItemType.ToString());
@@ -63,7 +63,7 @@ namespace BASeParser
             sb.Append("Operation=" + Operation);
             sb.Append(",");
             sb.Append("Position=" + Position);
-            sb.Append("Value=" + Value.ToString());
+            sb.Append("Value=" + (Value??""));
 
             return sb.ToString();
         }

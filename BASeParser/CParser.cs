@@ -14,6 +14,11 @@ namespace BASeParser
 
     public class CParser : ICorePlugin,IResultFormatter
     {
+        static CParser()
+        {
+            DebugLogger.Log = new DebugLogger("CParser");
+        }
+        private static readonly bool EnableCache = false;
         public enum ParseStateConstants
         {
             ParseState_Idle,
@@ -78,8 +83,8 @@ namespace BASeParser
         }
         const Char delimiter = ',';
         //static const String StdOperators = " + - * / ";
-        const String starting_brackets = "({[<";
-        const String ending_brackets = ")}]>";
+        const String starting_brackets = "({[";
+        const String ending_brackets = ")}]";
         public ParseStateConstants ParseState{get;set;}
         public Object LastResult { get; private set; }
         public List<IResultFormatter> Resultformatters { get; private set; }
@@ -139,6 +144,7 @@ namespace BASeParser
             mExpression = value;
             mpreviousitem=null;
          mFormulaStack = RipFormula(mExpression);
+         mFormulaStack = FixupImplicits(mFormulaStack);
          buildstack_infix(mFormulaStack);
             
         }  }
@@ -237,13 +243,17 @@ namespace BASeParser
         }
         protected void MakeParsable(ref String expression)
         {
-            foreach (String Op in mSplitOperators)
-            {
+            
+                foreach (String Op in mSplitOperators)
+                {
+            
 
-                expression = expression.Replace(Op, " " + Op + " ");
 
-            }
 
+                    //expression = expression.Replace(Op, " " + Op + " ");
+
+                }
+            
             while (expression.IndexOf("  ") > -1)
                 expression = expression.Replace("  ", " ");
 
@@ -261,17 +271,23 @@ namespace BASeParser
         }
         public IEnumerable<CFormItem> RipFormula_Enumerable(String expression)
         {
+            List<CFormItem> YieldedElements = new List<CFormItem>();
             //LinkedList<CFormItem> returnvalue = new LinkedList<CFormItem>();
             int currentposition = 0;
             CFormItem newitem;
 
             String mexpression = expression;
-
-            if (CStackCache.instance().Exists(expression))
+            if (EnableCache)
             {
-                foreach (var valloop in CStackCache.instance()[expression].AsEnumerable())
-                    yield return valloop;
-                yield break;
+                if (CStackCache.instance().Exists(expression))
+                {
+                    foreach (var valloop in CStackCache.instance()[expression].AsEnumerable())
+                    {
+                        YieldedElements.Add(valloop);
+                        yield return valloop;
+                    }
+                    yield break;
+                }
             }
             while (currentposition < mexpression.Length)
             {
@@ -284,9 +300,21 @@ namespace BASeParser
                     {
                         //the plugin successfully parsed the item, so add it to the "stack"....
 
+                        //if it is a subexpression not preceded by an operator
+                        if(newitem.ItemType==CFormItem.FormItemTypeConstants.IT_SUBEXPRESSION)
+                        {
+                            var lastElement = YieldedElements.Last();
+                            if(lastElement.ItemType!=CFormItem.FormItemTypeConstants.IT_OPERATOR)
+                            {
+                                var result = new CFormItem() { handler = this, ItemType = CFormItem.FormItemTypeConstants.IT_OPERATOR, Operation = "*", Position = lastElement.Position, Priority = mBinOperators.IndexOf("*") };
+                                YieldedElements.Add(result);
+                                yield return result;
+                            }
+                        }
 
                         //returnvalue.AddLast(newitem);
                         newitem.handler = currplug;
+                        YieldedElements.Add(newitem);
                         yield return newitem; 
                     }
 
@@ -307,7 +335,7 @@ namespace BASeParser
                 returnme.AddLast(loopvalue);
 
             }
-            CStackCache.instance().CacheStack(expression, returnme);
+            if(EnableCache) CStackCache.instance().CacheStack(expression, returnme);
             return returnme;
 
         }
@@ -325,7 +353,7 @@ namespace BASeParser
             {
                 foreach(var loopitem in CStackCache.instance()[expression])
                        yield return loopitem;
-                
+                yield break; //bugfix! without this the cached value got yielded and then it parsed it again (doh!)
             }
                         MakeParsable(ref mexpression);
             ParseState = ParseStateConstants.ParseState_Parsing;
@@ -407,6 +435,27 @@ namespace BASeParser
 
 
         }
+        protected LinkedList<CFormItem> FixupImplicits(LinkedList<CFormItem> RPNElements)
+        {
+            LinkedList<CFormItem> RecreatedListing = new LinkedList<CFormItem>();
+            CFormItem Previous = null;
+            foreach(var iterate in RPNElements)
+            {
+                if(Previous!=null)
+                {
+                    if(iterate.ItemType==CFormItem.FormItemTypeConstants.IT_SUBEXPRESSION)
+                    {
+                        if(Previous.ItemType!=CFormItem.FormItemTypeConstants.IT_OPERATOR)
+                        {
+                            RecreatedListing.AddLast(new CFormItem() { handler = this, ItemType = CFormItem.FormItemTypeConstants.IT_OPERATOR, Operation = "*", Position = iterate.Position, Priority = mBinOperators.IndexOf("*") });
+                        }
+                    }
+                }
+                RecreatedListing.AddLast(iterate);
+                Previous = iterate;
+            }
+            return RecreatedListing;
+        }
         protected bool buildstack_infix(LinkedList<CFormItem> fromlist)
         {
             /*
@@ -417,6 +466,11 @@ namespace BASeParser
              * */
             
             //loop through the List....
+
+            //apply fixups for implicits.
+            
+            
+
 
             Stack<CFormItem> operatorstack= new Stack<CFormItem>();
             Stack<CFormItem> parsestack = new Stack<CFormItem>();
@@ -442,7 +496,7 @@ namespace BASeParser
                         //if nothing is on the operator stack then push this operator onto it...
                         if (operatorstack.Count == 0)
                             operatorstack.Push(formulaitem);
-                        else if (operatorstack.Peek().Priority > formulaitem.Priority)
+                        else if (operatorstack.Peek().Priority >= formulaitem.Priority)
                         {
                             //if an operator's priority is inferior to the one of the last 
                             //operator on the operator stack then push all operators on the operator stack
@@ -848,23 +902,46 @@ namespace BASeParser
             return CollapseStack(mFormulaStack);
 
         }
+        private static String PrintStack(LinkedList<CFormItem> Stack)
+        {
+            StringBuilder resultString = new StringBuilder();
+            foreach(CFormItem stackitem in Stack)
+            {
+                resultString.AppendLine(stackitem.ToString());
+            }
+            return resultString.ToString();
+        }
         public Object CollapseStack(LinkedList<CFormItem> stackCollapse)
         {
+            Debug.Print("CollapseStack Called " + stackCollapse.Count + " Items:");
+            Debug.Print(PrintStack(stackCollapse));
+            Debug.Print("---");
             EventStack<Object> evalStack= new EventStack<Object>();
             LastResult=null;
             ParseState = ParseStateConstants.ParseState_Executing;
-            foreach (CFormItem loopitem in stackCollapse)
-            {
-                foreach(ICorePlugin loopcore in CorePlugins)
-                {
-                    if (loopcore.CanHandleItem(loopitem))
-                        loopcore.HandleItem(this, loopitem,ref evalStack,ref stackCollapse);
+           
+            
 
+                foreach (CFormItem loopitem in stackCollapse)
+                {
+                    foreach (ICorePlugin loopcore in CorePlugins)
+                    {
+                        if (loopcore.CanHandleItem(loopitem))
+                        {
+                            loopcore.HandleItem(this, loopitem, ref evalStack, ref stackCollapse);
+                            break; //break the loop- we don't want/need to continue looking at core plugins.
+                        }
+
+                    }
                 }
-            }
+            
             //Debug.Print("Evalstack.Count:" + evalStack.Count(); 
             //Debug.Assert(evalStack.Count > 0);
             ParseState = ParseStateConstants.ParseState_ExecuteComplete;
+            if(evalStack.Count==0)
+            {
+                Debug.Print("Evaluation Stack is empty...");
+            }
             LastResult = evalStack.Pop();
             return LastResult;
         }
@@ -1168,6 +1245,7 @@ namespace BASeParser
 
             else if (parsedval.StartsWith("(") && parsedval.EndsWith(")"))
             {
+                
                 //a "subexpression"...
                 CurrentItem.Operation = "";
                 CurrentItem.Position = position;
@@ -1196,7 +1274,33 @@ namespace BASeParser
                 Object[] paramobjects = new Object[funcarguments.Length];
                 bool[] noparsedargs = new bool[funcarguments.Length];
                 var handler = EvalPlugins.FirstOrDefault((w) => w.CanHandleFunction(functionname, ref noparsedargs));
+                if(handler==null)
+                {
+                    //no function. Is it a variable?
+                    if(withparser.isVariable(functionname))
+                    {
+                        CFormItem buildelement = new CFormItem() { handler = this, ItemType = CFormItem.FormItemTypeConstants.IT_VARIABLE, Operation = functionname, Position = position };
+                        //add the length of the variable, since we want to start parsing at that position.
+                        position += functionname.Length;
+                        CurrentItem = buildelement;
+                        return true;
+                    }
+                    else
+                    {
+                        CFormItem buildelement = new CFormItem() { handler = this, ItemType = CFormItem.FormItemTypeConstants.IT_VALUE, Value = functionname, Position = position };
+                        double attemptparse = 0;
+                        if(double.TryParse(functionname,out attemptparse))
+                        {
+                            buildelement.Value = attemptparse;
+                        }
 
+                        
+                        //add the length of the variable, since we want to start parsing at that position.
+                        position += functionname.Length;
+                        CurrentItem = buildelement;
+                        return true;
+                    }
+                }
                 for (int i = 0; i <= funcarguments.Length - 1; i++)
                 {
 
@@ -1213,6 +1317,7 @@ namespace BASeParser
                         paramobjects[i] = new CParser(funcarguments[i], this);
                     }
                 }
+
                 CurrentItem.Value = paramobjects;
                 position += parsedval.Length;
                 //CurrentItem.Value 
