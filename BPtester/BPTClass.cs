@@ -65,14 +65,17 @@ namespace BPtester
         {
             CParser testparser = new CParser();
 
-            String[] ExpressionsUse = {"12+5","{1,2,3}"};
-            Object[] Expectedresults = {(object)17,(object)(new object[] {1f,2f,3f}).ToList()};
+            String[] ExpressionsUse = {"12+5","{1,2,3}","14-12+5*Sqr(64)"};
+            Object[] Expectedresults = {(object)17,(object)(new object[] {1f,2f,3f}).ToList(),14-12+5*8};
             int failcount=0;
 
             for (int i = 0; i < ExpressionsUse.Length; i++)
             {
+               
                 Object tempobject = testparser.Execute(ExpressionsUse[i]);
-                if (Convert.ChangeType(tempobject, Expectedresults[i].GetType()).Equals( Expectedresults[i]))
+                if (Convert.ChangeType(tempobject, Expectedresults[i].GetType()).Equals( Expectedresults[i])
+                    || (testparser.ResultToString(tempobject).Equals(testparser.ResultToString(Expectedresults[i])))
+                    )
                 //if (tempobject == Expectedresults[i])
                 {
                     Debug.Print(ExpressionsUse[i] + " success. Result was " + testparser.ResultToString(tempobject));

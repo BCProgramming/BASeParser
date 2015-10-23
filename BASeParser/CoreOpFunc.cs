@@ -18,7 +18,7 @@ namespace BASeParser
         private const String HandledFunctionString = " sin cos tan sqr array createobject store log exp round range seq";
         private const String ArrayAwareFunctions = " store "; //array aware functions are functions that can accept an array. otherwise, the array is flattened and the function called
                                                                 //with each value as a parameter.
-        private const String HandledOperatorString = " <= >= < > == - + * / ^ $$ \\ DIV IN ";
+        private const String HandledOperatorString = " <= >= < > == + - * / ^ $$ \\ DIV IN ";
         private const String HandledPostfixOps = " ! ";
         private const String HandledPrefixOps = " - ";
         private const String ArrayOperators = " IN ";
